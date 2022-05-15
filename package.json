@@ -1,0 +1,32 @@
+{
+  "name": "noisechatter",
+  "version": "1.0.0",
+  "description": "This is a jquick clone from a tutorial meant to be a base for a chat application using html, css, js, and socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "chat",
+    "socketio",
+    "node",
+    "js",
+    "html",
+    "css"
+  ],
+  "author": "creds to James Quick for code base modified by hungry_bogart",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "forever": "^0.15.3",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "flightplan": "^0.6.20",
+    "fly": "^4.2.4"
+  }
+}
