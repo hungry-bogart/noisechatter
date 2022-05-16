@@ -2,7 +2,7 @@ var plan = require('flightplan');
 
 var appName = 'noisechatter';
 var username = 'your_username';
-var startFile = 'var/www/html/server.js'; //wherever your server.js file exists
+var startFile = 'server.js'; //wherever your server.js file exists
 
 var tmpDir = appName+'-' + new Date().getTime();
 
