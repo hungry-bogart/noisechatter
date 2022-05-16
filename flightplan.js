@@ -1,15 +1,15 @@
 var plan = require('flightplan');
 
 var appName = 'noisechatter';
-var username = 'x';
-var startFile = 'var/www/html/server.js';
+var username = 'your_username';
+var startFile = 'var/www/html/server.js'; //wherever your server.js file exists
 
 var tmpDir = appName+'-' + new Date().getTime();
 
 // configuration
 /* plan.target('staging', [
   {
-    host: '23.24.196.174',
+    host: 'YOURIP',
     username: username,
     agent: process.env.SSH_AUTH_SOCK
   }
@@ -17,7 +17,7 @@ var tmpDir = appName+'-' + new Date().getTime();
 
 plan.target('production', [
   {
-    host: 'possessed.duckdns.org',
+    host: 'YOURIP',
     username: username,
     agent: process.env.SSH_AUTH_SOCK
   },
