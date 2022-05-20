@@ -45,11 +45,11 @@ I use duckdns as a way to provide a quick and operational domain for this app. Y
 
 # Known Issues and Limitations
 
-- If you close your chat session all your cannot be recovered.
-- No alerting method when you receive a message
+- If you close your chat session, your messages cannot be recovered.
+- No alerting method available for when you receive a message if you are away.
 - No HTTPS by default. If you want this you need a cert. Look into a certificate using <a href="https://letsencrypt.org/" target=_blank>Let's Encrypt.</a>
 - No persistent usernames. Signing in with the same name just creates a duplicate name.
-- If you press a key and hold it down with no spaces involved it will trail off the screen like so. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA. Try it for fun.
+- If you press a key and hold it down with no spaces involved it will trail off the screen. Like this: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA. Try it for fun.
 - No password protection.
 - No encryption.
 - No DMs or multiple rooms to choose from.
