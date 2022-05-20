@@ -66,6 +66,7 @@ This should get you started. This is just a basic Node.js app with standard HTML
 # Check out Noisebridge online or visit us at 272 Capp St. in San Francisco, CA!
 
 Check out our projects at www.noisebridge.net! 
+
 ![Noisebridge-pixels](https://user-images.githubusercontent.com/105610230/169455517-3732a8cf-9d82-4d45-81e9-52d6f6ad1873.gif)
 
 -  Join the Noisebridge BBS at <a href="possessed.duckdns.org/vtx.html" target=_blank> this link via websockets!</a>
