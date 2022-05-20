@@ -16,7 +16,7 @@ https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 Node Modules Used:
 
-http, express, socket.io, and path. If you get lost at any point in time, I recommend watching the playlist at the top of this README.md file.
+http, express, socket.io, and path. If you get lost at any point in time, watch the playlist at the top of this README.md file.
 
 Links to these are here, but if you are using this you should already know how to install these or otherwise I will have a package with these already installed.
 
@@ -29,13 +29,13 @@ https://expressjs.com/
 
 `git clone https://github.com/hungry-bogart/noisechatter`
 
-Once you've cloned the repo, you will need to deploy the server.js file located in the top folder. To accomplish this, you will need PM2 installed. There are multiple ways to deploy and app, but I assure you none are as easy as PM2.
+Once you've cloned the repo, you will need to deploy the server.js file located in the top folder. To accomplish this, you will need PM2 installed. There are multiple ways to deploy an app, but I assure you none are as easy as PM2.
 
 Run the following command from the top folder, which contains the server.js file:
 
 `pm2 start server.js` 
 
-The default port is is :3000. It will look something like this when you provide a link to your instance.
+The default port is :3000. It will look something like this when you provide a link to your instance.
 
 YOURIP:3000 or YOURDOMAIN:3000
 
@@ -43,9 +43,9 @@ I use duckdns as a way to provide a quick and operational domain for this app. Y
 
 # Known Issues and Limitations
 
-- If you close your chat session all your messages cannot be recovered. I actually consider this a feature. 
+- If you close your chat session all your cannot be recovered.
 - No alerting method when you receive a message
-- No HTTPS by default. If you want this you need a cert. I can't help with that, but <a href="https://letsencrypt.org/" target=_blank>Let's Encrypt,can</a>
+- No HTTPS by default. If you want this you need a cert. Look into a certificate using <a href="https://letsencrypt.org/" target=_blank>Let's Encrypt,can</a>
 - No persistent usernames. Signing in with the same name just creates a duplicate name.
 - If you press a key and hold it down with no spaces involved it will trail of the screen like so. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA. Try it for fun.
 - No password protection.
@@ -56,8 +56,16 @@ This should get you started. This is just a basic Node.js app with standard HTML
 
 # Future Features
 
--ANSI ART
--Rooms
--DMs
--Security stuff
+- ANSI ART
+- Rooms
+- DMs
+- Security stuff
+
+# Check out Noisebridge online or visit us at 272 Capp St. in San Francisco, CA!
+
+Check out or projects at www.noisebridge.net! 
+
+-  Join the Noisebridge BBS at <a href="possessed.duckdns.org/vtx.html" target=_blank> this link via websockets!</a>
+-  Using a terminal client like Netrunner, call us at possessed.duckdns.org:8888 via telnet.
+-  Also, checkout our Moebius server at possessed.duckdns.org:8000 where you can draw ANSI art with us!
 
