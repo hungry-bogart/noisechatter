@@ -1,4 +1,6 @@
 # noisechatter
+![nb_logo](https://user-images.githubusercontent.com/105610230/169454383-14ca67c5-ecf4-45f3-ac23-1a966a4a4699.png)
+
 Noisechatter is an extension of the Noisebridge BBS. It's meant to complement other features of the BBS by providing a sidechannel for chatters using a Javascript web application using Node.js and Socket.io.
 
 This repo uses James Q. Quick's code from his 8 part tutorial, "Design and Build a Chat App with Socket.io." The link to the playlist is <a href="http://iteroni.com/playlist?list=PLDlWc9AfQBfbyGwhSlxg16mQGpGnauCwq" target=_blank> here.</a> This is a great series and I highly recommend it.
@@ -64,6 +66,7 @@ This should get you started. This is just a basic Node.js app with standard HTML
 # Check out Noisebridge online or visit us at 272 Capp St. in San Francisco, CA!
 
 Check out our projects at www.noisebridge.net! 
+![Noisebridge-pixels](https://user-images.githubusercontent.com/105610230/169455517-3732a8cf-9d82-4d45-81e9-52d6f6ad1873.gif)
 
 -  Join the Noisebridge BBS at <a href="possessed.duckdns.org/vtx.html" target=_blank> this link via websockets!</a>
 -  Using a terminal client like Netrunner, connect with us at possessed.duckdns.org:8888 via telnet.
