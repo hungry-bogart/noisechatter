@@ -1,12 +1,53 @@
-/* Variabls */
+/* Variables */
 :root {
-	--primary-blue: #CC3333;
-	--dark-blue: #CC3375;
-	--light-blue: #bbdefb;
-	--white: #ffffff;
-	--primary-text: #212121;
-	--secondary-text: #757575;
-	--light-gray: #bdbdbd;
+	/* Reds */
+	--lightest-red: #FF8C8C;
+	--light-red: #E55959;
+	--primary-red: #CC3333; /* In use */
+	--dark-red: #A71919;
+	--darkest-red: #800101;
+
+	/* Blues */
+	--lightest-blue: #5AA5A5;
+	--light-blue: #358989;
+	--primary-blue: #1F7A7A;
+	--dark-blue: #0F6464;
+	--darkest-blue: #014D4D;
+	
+		/* Greens */
+	--lightest-green: #CCF084;
+	--light-green: #AAD553; /* In use */
+	--primary-green: #8FBE30; /* In use */
+	--dark-green: #709C17;
+	--darkest-green: #507801;
+	
+	/* Standard Colors */
+	
+	--black: #212121; /* In use */
+	--white: #f0fff8; /* In use */
+	--light-gray: #DBE2E9; /* In use */
+
+	/* Text */
+
+	--primary-text: #000000; /* In use */
+	--secondary-text: #757575; /* In use */
+	--light-text: #686868;
+	--greyish-purple: #b790d4;
+
+	/* Special or One-time Use */
+	/*CRT Amber colors */
+	--light-amber-crt: #FFCC00;
+	--dark-amber-crt: #FFB000;
+
+	/*CRT Green Colors */
+	--lightest-green-crt: #33FF00;
+	--light-green-crt: #33FF33;
+	--green-crt: #00FF33;
+
+	/*CRT Apple Green Colors */
+	--apple-green-crt: #66FF66;
+	--light-apple-green-crt: #00FF66;
+
 }
 
 /* Resets */
@@ -17,8 +58,9 @@
 }
 
 body {
-	font-family: Helvetica, sans-serifs;
+	font-family: 'CodeNewRomanRegular';
 	color: var(--primary-text);
+	font-weight: 100;
 }
 
 /* Helper Classes */
@@ -46,6 +88,7 @@ body {
 	margin: 0 auto;
 }
 
+/* Text Colors */
 .primary-text {
 	color: var(--primary-text);
 }
@@ -55,9 +98,14 @@ body {
 }
 
 .light-text {
-	color: var(--light-blue);
+	color: var(--light-text);
 }
 
+.greyish-purple-inputbox {
+	color: var(--greyish-purple);
+}
+
+/* Formatting */
 .hidden {
 	display: none;
 }
@@ -70,16 +118,88 @@ body {
 	margin-bottom: 20px;
 }
 
+/* Headings */
 h1 {
-	font-size: 48px;
-	font-weight: 300;
+	font-family: VT323; 
+	font-size: 48px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 400; 
+	line-height: 52.8px;
+    color: var(--white); 
+    text-shadow: 0 0 5px var(--lightest-green-crt), 0 0 10px var(--lightest-green-crt), 0 0 20px var(--lightest-green-crt), 0 0 30px var(--lightest-green-crt); /* This controls the CRT glow effect. */
 }
+
+h2 {
+	font-size: 24px;
+	font-weight: 200;
+	font-family: '5BY7Regular';
+	color: var(--white);
+	text-shadow: 0 0 1.5px var(--dark-amber-crt), 0 0 2.5px var(--dark-amber-crt), 0 0 20px var(--dark-amber-crt), 0 0 20px var(--dark-amber-crt);
+}
+
+/* First text-shadow value seems to control outer-glow. */
+h3 {
+	font-size: 24px;
+	font-weight: 5px;
+	font-family: 'MeyrinRegular';
+	color: var(--white);
+	text-shadow: 0 0 0px var(--lightest-green-crt), 0 0 2.5px var(--lightest-green-crt), 0 0 20px var(--lightest-green-crt), 0 0 20px var(--lightest-green-crt);
+}
+
+/* CRT Header */
+/* Special or One-time Use Colors were described at the beginning of this document */
+/* CRT Colors */
+.light-amber-crt {
+	color: var(--light-amber-crt);
+}
+
+.dark-amber-crt {
+	color: var(--dark-amber-crt);
+}
+
+.lightest-green-crt {
+	color: var(--lightest-green-crt);
+}
+
+.light-green-crt {
+	color: var(--light-green-crt);
+}
+
+.green-crt {
+	color: var(--green-crt);
+}
+
+.light-apple-green-crt {
+	color: var(--light-apple-green-crt);
+}
+
+.apple-green-crt {
+	color: var(--apple-green-crt);
+}
+
+/*This controls the blinking cursor effect */
+.blink {
+	animation: blink 0.5s infinite;
+  }
+  
+  @keyframes blink {
+	0% {
+	  opacity: 1;
+	}
+	50% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
 
 #appContainer {
 	height: 100vh;
 	width: 100vw;
 	align-items: stretch;
-	background-color: var(--primary-blue);
+	background-color: var(--dark-red);
 	overflow: hidden;
 }
 
@@ -91,7 +211,7 @@ h1 {
 /* Header */
 header {
 	height: 150px;
-	background-color: var(--dark-blue);
+	background-color: var(--black);
 	width: 100%;
 	color: white;
 }
@@ -104,9 +224,9 @@ header .container {
 /* Login */
 
 #login {
-	background: white;
+	background: var(--dark-blue);
 	padding: 40px 100px;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 	margin-top: -100px;
 }
 
@@ -118,16 +238,16 @@ header .container {
 
 input {
 	height: 40px;
-	padding: 10px;
-	background-color: var(--light-blue);
+	padding: 5px;
+	background-color: var(--light-gray);
 	border: none;
-	color: var(--secondary-text);
+	font-weight: 800;
 }
 
 button {
 	height: 40px;
 	padding: 0 15px;
-	background-color: var(--primary-blue);
+	background-color: var(--primary-red);
 	color: white;
 	border: none;
 }
@@ -148,16 +268,19 @@ button {
 }
 
 .message {
-	background-color: var(--primary-blue);
+	background-color: var(--light-green);
 	padding: 20px;
 	width: 80%;
 	margin-bottom: 20px;
+	font-weight: 300;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .message-right {
-	background: var(--light-blue);
+	background: var(--lightest-blue);
 	color: var(--primary-text);
 	margin-left: 20%;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .message-right .message-date {
@@ -180,3 +303,13 @@ button {
 .message-content {
 	font-weight: 100;
 }
+
+/* div.image {
+	content:url(https://www.noisebridge.net/images/6/6c/NBani-fast-glitch.gif);
+	opacity: 0.5;
+	height: 160px;
+	width: 160px;
+	float: left;
+	padding-top: 10px;
+	323 205 6209	
+} */

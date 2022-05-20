@@ -19,7 +19,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
-    "forever": "^0.15.3",
     "http": "^0.0.1-security",
     "nodemon": "^2.0.16",
     "path": "^0.12.7",
@@ -27,6 +26,15 @@
   },
   "devDependencies": {
     "flightplan": "^0.6.20",
-    "fly": "^4.2.4"
-  }
+    "fly": "^4.2.4",
+    "forever": "^4.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungry-bogart/noisechatter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hungry-bogart/noisechatter/issues"
+  },
+  "homepage": "https://github.com/hungry-bogart/noisechatter#readme"
 }
