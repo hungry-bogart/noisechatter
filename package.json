@@ -24,11 +24,6 @@
     "path": "^0.12.7",
     "socket.io": "^4.5.0"
   },
-  "devDependencies": {
-    "flightplan": "^0.6.20",
-    "fly": "^4.2.4",
-    "forever": "^4.0.3"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hungry-bogart/noisechatter.git"
