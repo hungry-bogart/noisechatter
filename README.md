@@ -6,7 +6,7 @@ Noisechatter is an extension of the Noisebridge BBS. It's meant to complement ot
 This repo uses James Q. Quick's code from his 8 part tutorial, "Design and Build a Chat App with Socket.io." The link to the playlist is <a href="http://iteroni.com/playlist?list=PLDlWc9AfQBfbyGwhSlxg16mQGpGnauCwq" target=_blank> here.</a> This is a great series and I highly recommend it.
 
 # Demo
-See noisechatter in action by visiting my instance of it at this <a href="http://possessed.duckdns.org:3000" target=_blank>link</a>.
+See noisechatter in action by visiting my instance of it at this <a href="http://noisebridgebbs.duckdns.org:3000" target=_blank>link</a>.
 
 # Dependencies
 
@@ -42,6 +42,10 @@ The default port is :3000. It will look something like this when you provide a l
 YOURIP:3000 or YOURDOMAIN:3000
 
 I use duckdns as a way to provide a quick and operational domain for this app. You can do the same by visiting <a href="https://www.duckdns.org/" target=_blank>duckdns.org</a>
+
+If you simply want to test the app, or you don't want to install pm2, type this in your terminal instead.
+
+`node server.js`
 
 # Known Issues and Limitations
 
