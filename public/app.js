@@ -12,7 +12,7 @@ const usernameInput = document.getElementById('usernameInput');
 const loginBtn = document.getElementById('loginBtn');
 const loginWindow = document.getElementById('login');
 
-const messages = []; // { author, date, content, type }
+const messages = []; // { author, content, type }
 
 //Connect to socket.io - automatically tries to connect on same port app was served from
 var socket = io();
@@ -49,8 +49,7 @@ createMessageHTML = message => {
 		<div class="message-details flex">
 			<p class="flex-grow-1 message-author">${
 				message.type === messageTypes.LEFT ? message.author : ''
-			}</p>
-			<p class="message-date">${message.date}</p>
+			}</p>		
 		</div>
 		<p class="message-content">${message.content}</p>
 	</div>
@@ -70,15 +69,8 @@ sendBtn.addEventListener('click', e => {
 		return console.log('Invalid input');
 	}
 
-	const date = new Date();
-	const month = ('0' + date.getMonth()).slice(0, 2);
-	const day = date.getDate();
-	const year = date.getFullYear();
-	const dateString = `${month}/${day}/${year}`;
-
 	const message = {
 		author: username,
-		date: dateString,
 		content: messageInput.value
 	};
 	sendMessage(message);
