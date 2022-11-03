@@ -31,7 +31,7 @@ https://expressjs.com/
 
 `git clone https://github.com/hungry-bogart/noisechatter`
 
-Once you've cloned the repo, you'll need to deploy the server.js file located in the top folder. You have two options. For the first option, you will need PM2 installed. I assure, there are many ways to deploy an app, but none are as easy as PM2.
+Once you've cloned the repo, you'll need to deploy the server.js file located in the top folder. You have two options. For the first option, you will need PM2 installed. I assure you, there are many ways to deploy an app, but none are as easy as PM2.
 
 Run the following command from the top folder, which contains the server.js file:
 
@@ -76,5 +76,5 @@ Check out our projects at www.noisebridge.net!
 -  Join the Noisebridge BBS at <a href="noisebridgebbs.duckdns.org/vtx.html" target=_blank> this link via websockets!</a>
 -  Using a terminal client like Netrunner, connect with us at noisebridgebbs.duckdns.org:8888 via telnet.
 -  Also, checkout our Moebius server at noisebridgebbs.duckdns.org:8000 where you can draw ANSI art with us!
--  Detailed connection instructions for our BBS are located on our main page wiki under the BBS channel.
+-  Detailed connection instructions for our BBS are located on our main page wiki under the <a href="https://www.noisebridge.net/wiki/BBS" target=_blank>BBS channel.</a>
 
