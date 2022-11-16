@@ -66,6 +66,7 @@ This should get you started. This is just a basic Node.js app with standard HTML
 - Rooms
 - DMs
 - Security stuff
+- More security stuff...
 
 # Check out Noisebridge online or visit us at 272 Capp St. in San Francisco, CA!
 
