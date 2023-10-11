@@ -47,6 +47,8 @@ If you simply want to test the app, or you don't want to install pm2, type this 
 
 `node server.js`
 
+# Coming Soon Docker Version
+I'm still working on this, but I wanted to check the code and redo the UI a bit before I push it to the repo here.
 # Known Issues and Limitations
 
 - If you close your chat session, your messages cannot be recovered.
