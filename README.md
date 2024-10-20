@@ -1,12 +1,11 @@
 # noisechatter
 ![nb_logo](https://user-images.githubusercontent.com/105610230/169454383-14ca67c5-ecf4-45f3-ac23-1a966a4a4699.png)
 
-Noisechatter is an extension of the Noisebridge BBS. It's meant to complement other features of the BBS by providing a sidechannel for chatters using a Javascript web application built with Node.js and Socket.io.
+Noisechatter started as an extension of the Noisebridge BBS. It was meant to complement other features of the BBS by providing a sidechannel for chatters using a Javascript web application built with Node.js and Socket.io. Sadly, it was never used to its full potential and the Noisebridge BBS is on hiatus.
+
+# Inspiration
 
 This repo uses James Q. Quick's code from his 8 part tutorial, "Design and Build a Chat App with Socket.io." The link to the playlist is <a href="http://iteroni.com/playlist?list=PLDlWc9AfQBfbyGwhSlxg16mQGpGnauCwq" target=_blank> here.</a> This is a great series and I highly recommend it.
-
-# Demo
-See noisechatter in action by visiting my instance of it at this <a href="http://noisebridgebbs.com:3000" target=_blank>link</a>.
 
 # Dependencies
 
@@ -49,6 +48,7 @@ If you simply want to test the app, or you don't want to install pm2, type this 
 
 # Coming Soon Docker Version
 I'm still working on this, but I wanted to check the code and redo the UI a bit before I push it to the repo here.
+
 # Known Issues and Limitations
 
 - If you close your chat session, your messages cannot be recovered.
@@ -63,7 +63,6 @@ I'm still working on this, but I wanted to check the code and redo the UI a bit 
 This should get you started. This is just a basic Node.js app with standard HTML, CSS, and Javascript files. It would be trivial to customize the look and feel on your own.
 
 # Future Features
-
 - ANSI ART
 - Rooms
 - DMs
@@ -75,9 +74,4 @@ This should get you started. This is just a basic Node.js app with standard HTML
 Check out our projects at www.noisebridge.net! 
 
 ![Noisebridge-pixels](https://user-images.githubusercontent.com/105610230/169455517-3732a8cf-9d82-4d45-81e9-52d6f6ad1873.gif)
-
--  Join the Noisebridge BBS at <a href="noisebridgebbs.duckdns.org/vtx.html" target=_blank> this link via websockets!</a>
--  Using a terminal client like Netrunner, connect with us at noisebridgebbs.duckdns.org:8888 via telnet.
--  Also, checkout our Moebius server at noisebridgebbs.duckdns.org:8000 where you can draw ANSI art with us!
--  Detailed connection instructions for our BBS are located on our main page wiki under the <a href="https://www.noisebridge.net/wiki/BBS" target=_blank>BBS channel.</a>
 
